@@ -27,6 +27,7 @@ ssh {user}@{host}
   - One secret key for encyption and decryption
   - uses a key exchange algorithm
 - Asymmetrical Encryption
+  - Uses two separate keys, one for encryption and one for decryption (public, private)
 - Hashing
 
 #### Resources:
