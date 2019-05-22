@@ -2,13 +2,13 @@
 
 ## Keys to performance optimization Part 1
 
-### Frontend
+### <b>Frontend</b>
 
 1. Critical render path
 2. Optimized code
 3. Progressive Web App
 
-### File Transfer
+### <b>File Transfer</b>
 
 1. Minimize Files
 
@@ -45,8 +45,6 @@
 
    e. Paint
 
-   <hr />
-
 - HTML
   - Load style tag in the <head>
   - Load script right before </body>
@@ -65,7 +63,7 @@
   - <b>Defer</b>: (Not 100% supported) scripts will not load until the DOM has loaded
   - \*If JS events change any part of the page, it causes a redraw of the render tree and it forces us to go through the Layout and Paint processes again and again.\*
 
-### Backend
+### <b>Backend</b>
 
 1. CDNs
 2. Caching
@@ -75,55 +73,51 @@
 
 <hr />
 
-## Keys to performance optimization Part 2
-
-<hr />
-
-#### Key Notes
+##### Key Notes
 
 - Average website should load within 2sec.
 
-#### Resources
+## Resources
 
-Image file formats
+<b>Image file formats</b>
 
-https://99designs.com/blog/tips/image-file-types/
+- https://99designs.com/blog/tips/image-file-types/
 
-https://pageweight.imgix.com/
+- https://pageweight.imgix.com/
 
-https://www.sitepoint.com/gif-png-jpg-which-one-to-use/
+- https://www.sitepoint.com/gif-png-jpg-which-one-to-use/
 
-Media Queries
+<b>Media Queries</b>
 
-https://www.verexif.com/en/
+- https://www.verexif.com/en/
 
-https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+- https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
-http://www.bsidestudios.com/blog/media-queries-common-sizes-cheat-sheet
+- http://www.bsidestudios.com/blog/media-queries-common-sizes-cheat-sheet
 
-Delivery
+<b>Delivery</b>
 
-https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
+- https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
 
-Async & Defer
+<b>Async & Defer</b>
 
 https://stackoverflow.com/questions/10808109/script-tag-async-defer
 
-Speed Testing
+<b>Speed Testing</b>
 
-https://developers.google.com/speed/pagespeed/insights/
+- https://developers.google.com/speed/pagespeed/insights/
 
-google lighthouse plugin chrome
+- google lighthouse plugin chrome
 
-https://tools.pingdom.com/
+- https://tools.pingdom.com/
 
-https://www.webpagetest.org/
+- https://www.webpagetest.org/
 
-Prefetching
+<b>Prefetching</b>
 
 https://css-tricks.com/prefetching-preloading-prebrowsing/
 
-Dev Tools:
+<b>Dev Tools:</b>
 
 - <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#activities" target="_blank">View main thread activities in a table</a> to sort activities based on which ones took up the most time.
 
@@ -141,7 +135,7 @@ Dev Tools:
 
 - <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#main" target="_blank">View main thread activity</a> to view every event that occurred on the main thread while you were recording.
 
-Other Resources:
+<b>Other Resources:</b>
 
 - http://optimizilla.com/
 
@@ -163,10 +157,14 @@ Other Resources:
 
 - https://www.crazyegg.com/blog/image-editing-tools/
 
-Additional image manipulation tools:
+<b>Additional image manipulation tools:</b>
 
 <a href="https://www.xnview.com/en/xnconvert/" target="_blank">XNConvert:</a> This free, cross-platform tool can handle batched images, and performs resizing, optimization, and other transforms.
 <a href="https://imageoptim.com/mac" target="_blank">ImageOptim:</a> This free tool is available for Mac and as an online service, and is specifically aimed at optimizing images for speed, including metadata removal (discussed above).
 <a href="https://itunes.apple.com/us/app/resizeit/id416280139?mt=12" target="_blank">ResizeIt:</a> A Mac-only desktop product that lets you change the size of multiple images simultaneously, and can convert file formats at the same time.
 <a href="http://www.picresize.com/" target="_blank">PicResize:</a> One of several good browser-based tools that gives you lots of options for cropping, rotating, resizing, adding effects to, and converting images.
 <a href="https://www.gimp.org/" target="_blank">Gimp:</a> This ever-popular cross-platform tool just gets better with age. Powerful and flexible, Gimp lets you perform a wide variety of image manipulation tasks including, of course, resizing.
+
+<b>HHTP / 2</b>
+
+- https://developers.google.com/web/fundamentals/performance/http2/
