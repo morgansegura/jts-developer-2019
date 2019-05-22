@@ -118,3 +118,55 @@ google lighthouse plugin chrome
 https://tools.pingdom.com/
 
 https://www.webpagetest.org/
+
+Prefetching
+
+https://css-tricks.com/prefetching-preloading-prebrowsing/
+
+Dev Tools:
+
+- <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#activities" target="_blank">View main thread activities in a table</a> to sort activities based on which ones took up the most time.
+
+- <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#fps" target="_blank">Analyze frames per second (FPS)</a> to measure whether your animations truly run smoothly.
+
+- <a href="https://developers.google.com/web/updates/2017/11/devtools-release-notes#perf-monitor" target="_blank">Monitor CPU usage, JS heap size, DOM nodes, layouts per second, and more</a> in real-time with the Performance Monitor.
+
+- <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#screenshots" target="_blank">Capture screenshots while recording</a> to play back exactly how the page looked while the page loaded, or an animation fired, and so on.
+
+- <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#interactions" target="_blank">View interactions</a> to quickly identify what happened on a page after a user interacted with it.
+
+- <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#scrolling-performance-issues" target="_blank">Find scroll performance issues in real-time</a> by highlighting the page whenever a potentially problematic listener fires.
+
+- <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#paint-flashing" target="_blank">View paint events in real-time</a> to identify costly paint events that may be harming the performance of your animations.
+
+- <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#main" target="_blank">View main thread activity</a> to view every event that occurred on the main thread while you were recording.
+
+Other Resources:
+
+- http://optimizilla.com/
+
+- https://tools.pingdom.com/
+
+- https://www.thinkwithgoogle.com/feature/mobile/
+
+- https://developers.google.com/web/tools/lighthouse/
+
+- http://websitespeedranker.com/
+
+- https://pageweight.imgix.com/
+
+- https://developers.google.com/speed/pagespeed/insights/
+
+- https://passmarked.com/
+
+- https://images.guide/
+
+- https://www.crazyegg.com/blog/image-editing-tools/
+
+Additional image manipulation tools:
+
+<a href="https://www.xnview.com/en/xnconvert/" target="_blank">XNConvert:</a> This free, cross-platform tool can handle batched images, and performs resizing, optimization, and other transforms.
+<a href="https://imageoptim.com/mac" target="_blank">ImageOptim:</a> This free tool is available for Mac and as an online service, and is specifically aimed at optimizing images for speed, including metadata removal (discussed above).
+<a href="https://itunes.apple.com/us/app/resizeit/id416280139?mt=12" target="_blank">ResizeIt:</a> A Mac-only desktop product that lets you change the size of multiple images simultaneously, and can convert file formats at the same time.
+<a href="http://www.picresize.com/" target="_blank">PicResize:</a> One of several good browser-based tools that gives you lots of options for cropping, rotating, resizing, adding effects to, and converting images.
+<a href="https://www.gimp.org/" target="_blank">Gimp:</a> This ever-popular cross-platform tool just gets better with age. Powerful and flexible, Gimp lets you perform a wide variety of image manipulation tasks including, of course, resizing.
